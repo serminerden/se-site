@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   My name is Sermin and I’m an English teacher living in Sydney.
   I have been teaching high quality English lessons since 2014.
   My English lessons have helped learners from all over the world to become better language users.
-baseurl: "/se-site" # the subpath of your site, e.g. /blog
-url: "https://serminerden.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://serminerden.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Main Menu Items
 # Items must contain leading slash.
