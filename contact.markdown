@@ -46,28 +46,3 @@ permalink: /contact/
     document.getElementById('submit-notification').classList.add("hidden");
   });
 </script>
-
-<style>
-.input, .textarea {
-  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
-  max-width: 100%;
-  width: 100%;
-  color: #363636;
-}
-.button, .input, .textarea {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 1em;
-}
-
-.notification.is-success {
-  background-color: #23d160;
-  color: #fff;
-  padding: 1%;
-  border-radius: 4px;
-}
-
-.hidden {
-  visibility: hidden;
-}
-</script>
