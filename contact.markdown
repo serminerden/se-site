@@ -5,13 +5,13 @@ permalink: /contact/
 ---
 
 <label class="label">Name*</label>
-<input id="name" class="input" type="text" required value="Sermin">
+<input id="name" class="input" type="text" required>
 
 <label class="label">Email*</label>
-<input id="email" class="input" type="email" required value="sermin@example.com">
+<input id="email" class="input" type="email" required>
 
 <label class="label">Message</label>
-<textarea id="message" class="textarea" rows="5">My Message...</textarea>
+<textarea id="message" class="textarea" rows="5"></textarea>
 
 <button id="submit" class="button is-link">Contact Me</button>
 
@@ -45,4 +45,29 @@ permalink: /contact/
   document.getElementById('submit-delete').addEventListener('click', function(event) {
     document.getElementById('submit-notification').classList.add("hidden");
   });
+</script>
+
+<style>
+.input, .textarea {
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+  max-width: 100%;
+  width: 100%;
+  color: #363636;
+}
+.button, .input, .textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+.notification.is-success {
+  background-color: #23d160;
+  color: #fff;
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.hidden {
+  visibility: hidden;
+}
 </script>
