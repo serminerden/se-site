@@ -24,10 +24,12 @@ Dates: October 2019 - Present
 
 ### EF International Language School – Sydney, Australia
 Role: English Teacher
+
 Dates: July 2018 - October 2019
 
 ### EF International Language School - Eastbourne, UK
 Role: Senior English Teacher
+
 Dates: September 2015 - June 2018
 
 - Emphasised critical thinking through small and large group activities.
@@ -46,6 +48,7 @@ Reference: Nigel Warwick. Position: Director of studies. Phone number: +44741933
  
 ### Berger Scholen Gemeenschap - Bergen, The Netherlands
 Role: English Teacher
+
 Dates: September 2014 - July 2015
 
 - Preparing and delivering lessons, lesson plans and monthly status reports.
@@ -56,6 +59,7 @@ Dates: September 2014 - July 2015
 
 ### European School of Bergen – Bergen, The Netherlands
 Role: English Teacher (Placement)
+
 Dates: September 2014 - March 2015
 
 - Exam Preparation First Certificate in English (FCE).
@@ -67,5 +71,5 @@ Dates: September 2014 - March 2015
 - Foundation Amauta, Argentina and Peru, 2012. English teacher and Basketball Coach.
 
 ### Other Experience
-- Science Teacher/ Science Laboratory Technician (September 2009 - September 2014)
+- Science Teacher / Science Laboratory Technician (September 2009 - September 2014)
 - Molecular Research Analyst (March 2002 - July 2009)
