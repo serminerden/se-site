@@ -17,12 +17,17 @@ Experienced, engaging and enthusiastic English teacher with 10 years of teaching
 
 ## Work History
 
+### University of Queensland - Brisbane, Australia
+Role: TESOL Teacher
+
+Dates: October 2019 - Present
+
 ### EF International Language School – Sydney, Australia
-Role: Senior English Teacher
+Role: English Teacher
 Dates: July 2018 - October 2019
 
 ### EF International Language School - Eastbourne, UK
-Role: English Teacher
+Role: Senior English Teacher
 Dates: September 2015 - June 2018
 
 - Emphasised critical thinking through small and large group activities.
