@@ -36,4 +36,4 @@ Here's a list of papers:
 This is how you include an image. Look inside the folder called 'assets' then inside 'images'.
 You can also upload new images there too.
 
-![the "hover over" text](../assets/images/face.png)
+
