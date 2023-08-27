@@ -4,4 +4,4 @@ layout: home
 
 <img src="/assets/images/face.jpg" class="is-centered" />
 
-## <span class="emphasis">The garden of language has no limits, the only thing holding you back is your own mind...</span>
+## <span class="emphasis">Languages have no limitations, they are alive, flexible, and forever evolving...</span>
