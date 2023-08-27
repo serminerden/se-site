@@ -15,11 +15,13 @@ Each student has different learning needs. Assessing those needs and creating a 
 
 I work full-time as an English teacher, but I also provide support to people online because I am passionate about working with and helping people to achieve their dreams.  I do not see my job as work but as pure enjoyment, because learning languages is fun, interesting, and challenging. The languages we speak can create understanding across cultures, which is what brings people together.
 
-
-
+<br>
+<br>
+<br>
 
 On this website, you are able to:
 
+<br>
 
 - Listen to or read my unpublished papers
 - Watch videos on how to improve commonly made mistakes
