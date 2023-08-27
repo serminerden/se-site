@@ -4,7 +4,12 @@ title: Contact Me
 permalink: /contact/
 ---
 
-Feel free to contact me for a free consultation by filling in your details below. 
+<br>
+
+Feel free to contact me for a free consultation by filling in your details below.
+
+<br>
+
 
 <label class="label">Name*</label>
 <input id="name" class="input" type="text" required>
