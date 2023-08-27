@@ -4,12 +4,12 @@ title: About Me
 permalink: /about/
 ---
 
-My name is Sermin and I’m an English teacher living in Brisbane, Australia. I have been teaching high quality English lessons since 2014. My English lessons have helped learners from all over the world to become better language users.
+My name is Şermin and I am an English teacher living in Brisbane, Australia. I have been teaching high-quality English lessons since 2014. My English lessons have helped learners from all over the world to become better language users.
 
 
-Studying English online is a great way to improve your language skills or to maintain the skills that you have learned abroad. It’s convenient because you can study from home or anywhere via computer. However, it’s more than that, studying with me means you can focus exactly on your learning needs with an experienced language teacher who will help you to improve your English skills.
+Studying English online is a great way to improve your language skills or maintain the skills you have learned abroad. Your learning needs with an experienced language teacher who will help you to improve your English skills.
 
-I work full-time as an English teacher, but I also teach online because I’m passionate about working with new and former students from all over the world to help them achieve their dreams.  I don’t see my job as work but as pure enjoyment!
+I work full-time as an English teacher, but I also teach online because I’m passionate about working with new and former students worldwide to help them achieve their dreams.  I don’t see my job as work but as pure enjoyment!
 
 
 If you want a teacher with a lot of teaching expertise, then I’m right for you. I have 8 years of total teaching experience in various subjects (English, Biology and Chemistry) and I have the professional background to get fantastic results for you!
