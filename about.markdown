@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
+permalink: /about2/
 ---
 
 My name is Şermin and I am an English teacher living in Brisbane, Australia. I have been teaching English since 2014. Even though my background is in science, which turned into teaching, studying linguistics is what changed my career path. I am a native speaker of three languages (i.e., Dutch, Turkish, and English), I have been able to speak these language throughout my life and worked hard to maintain them. I learned French and German in highschool but did not have the passion or a reason to continue using those lanuages, so have lost the ability to speak those languages over the years. However, I still understand and can read in German as this language is closely related to Dutch. As an adult I tried to learn Spanish, which made me understand the difficulties of learning a language at a later stage in life. Studying English Language, Linguistics, TESOL, and Apllied Linguistics made me understand not only how to be a versetile teacher, it made me understand the different types of learners better. Working at international language institutions where students from all over the world come together, allowed me to teach people from all over the world on a micro scale. This has allowed me to help learners from all over the world to become better language users based on their individual needs.
