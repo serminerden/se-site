@@ -4,15 +4,23 @@ title: About Me
 permalink: /about/
 ---
 
-My name is Şermin and I am an English teacher living in Brisbane, Australia. I have been teaching high-quality English lessons since 2014. My English lessons have helped learners from all over the world to become better language users.
+My name is Şermin and I am an English teacher living in Brisbane, Australia. I have been teaching English since 2014, and working at international language institutions has helped learners from all over the world to become better language users.
+
+Studying languages online is a great way to improve your language skills or maintain the skills you have learned abroad. Each student has different learning needs, assessing your needs and creating a personalised learning plan will help you to improve the skills you struggle with most.
+
+I work full-time as an English teacher, but I also teach online because I am passionate about working with new and former students worldwide to help them achieve their dreams.  I do not see my job as work but as pure enjoyment, because English lessons can be fun, interesting, and challenging.
 
 
-Studying English online is a great way to improve your language skills or maintain the skills you have learned abroad. Your learning needs with an experienced language teacher who will help you to improve your English skills.
 
-I work full-time as an English teacher, but I also teach online because I’m passionate about working with new and former students worldwide to help them achieve their dreams.  I don’t see my job as work but as pure enjoyment!
+On this website, you are able to:
+
+- Listen to or read my unpublished papers
+- Watch videos on how to improve commonly made mistakes
+- Practice for free with the materials provided
+- Sign up for a free consultation
 
 
-If you want a teacher with a lot of teaching expertise, then I’m right for you. I have 8 years of total teaching experience in various subjects (English, Biology and Chemistry) and I have the professional background to get fantastic results for you!
 
 
-If you want a teacher who believes in making English lessons fun, interesting and challenging, then I’m right for you. I put all my effort into creating personalised lessons for my students. I believe in having a positive, supportive relationship with all my students and they will all tell you how patient I am as a teacher. I want my learners to be at ease, to make mistakes and fall in love with learning English.
+
+
