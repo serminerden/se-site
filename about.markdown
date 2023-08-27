@@ -24,7 +24,7 @@ On this website, you are able to:
 - Listen to or read my unpublished papers
 - Watch videos on how to improve commonly made mistakes
 - Practice for free with the materials provided
-- Sign up for a free consultation
+- [Sign up](/contact) for a free consultation
 
 
 
