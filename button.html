@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        #helpButton {
+            padding: 20px 40px;
+            font-size: 20em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        #helpButton:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <button id="helpButton">🙋‍♀️</button>
+
+    <script>
+        document.getElementById('helpButton').addEventListener('click', function() {
+            // Create the payload
+            const payload = "ping";
+            
+            // Send POST request
+            fetch('https://ntfy.sh/dFxXk1vG99syU', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'text/plain',
+                },
+                body: payload
+            })
+            .then(response => {
+                console.log('Success:', response);
+                alert('Help request sent!');
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Failed to send help request');
+            });
+        });
+    </script>
+</body>
+</html>
