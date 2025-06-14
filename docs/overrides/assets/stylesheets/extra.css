@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+    background-image: url("/images/background.png");
+    background-size: cover;
+}
+
+.rounded-corners {
+  border-radius: 5%;
+}
+
+.md-header__title {
+  flex-grow: 1;
+  font-size: xxx-large;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  font-family: "Ms Madi";
+}
+
+.menu_item {
+  font-size: large;
+}
+
+.headline-title {
+  font-size: xx-large !important;
+  margin-bottom: 1em !important;
+  text-align: center;
+  color:  black !important;
+}
+
+.headline-text {
+  font-family: Caveat;
+  font-size: xx-large;
+  float: left;
+}
+
+p {
+  font-size: larger;
+  text-align: center;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.centered-image {
+  display: block;
+  max-width: 50% !important;
+  margin: auto;
+}
+.grid {
+  font-size: larger;
+  grid-gap: 3rem !important;
+}
