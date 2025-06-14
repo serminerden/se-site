@@ -1,0 +1,39 @@
+site_name: Şermin Erden
+theme:
+  name: material
+  custom_dir: docs/overrides
+  logo: assets/logo.png
+  palette:
+    primary: white
+    # accent: deep orange
+  # features:
+  #   - navigation.tabs
+# plugins:
+#   - social
+plugins:
+  - search
+# extra:
+#   alternate:
+#     - name: English
+#       link: /en/
+#       lang: en
+#     - name: Netherlands
+#       link: /nl/
+#       lang: nl
+nav:
+  - Home: "index.md"
+  - About Me: "about.md"
+  - Papers: "papers.md"
+  - Podcast: "podcast.md"
+  - Contact: "contact.md"
+extra:
+  social:
+      - icon: fontawesome/brands/facebook
+        link: https://en-gb.facebook.com/people/Sermin-EF-Eastbourne/100011166399389
+      - icon: fontawesome/brands/linkedin 
+        link: https://www.linkedin.com/in/sermin-erden-aa863a30/
+extra_css:
+  - overrides/assets/stylesheets/extra.css
+markdown_extensions: 
+  - attr_list
+  - md_in_html
