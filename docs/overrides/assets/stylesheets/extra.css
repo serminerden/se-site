@@ -38,6 +38,15 @@ body {
 p {
   font-size: larger;
   text-align: center;
+  color: black !important;
+}
+
+h1 {
+  color: black !important;
+}
+h1#about-me {
+  color: black !important;
+  text-align: center;
 }
 
 .centered-text {
