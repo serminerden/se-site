@@ -21,11 +21,11 @@ plugins:
 #       link: /nl/
 #       lang: nl
 nav:
-  - Home: "index.md"
-  - About Me: "about.md"
-  - Papers: "papers.md"
-  - Podcast: "podcast.md"
-  - Contact: "contact.md"
+  - Home: "/"
+  - About Me: "/about"
+  - Papers: "/papers"
+  - Podcast: "/podcast"
+  - Contact: "/contact"
 extra:
   social:
       - icon: fontawesome/brands/facebook
