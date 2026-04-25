@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meaning, Logic, and Quantification - Şermin Erden</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="../@style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="content-page">
+        <div class="nav-bar">
+            <div class="logo">
+                <div class="logo-spiral">
+                    <svg viewBox="0 0 100 100">
+                        <rect x="10" y="10" width="80" height="80" fill="none" stroke="#C75D54" stroke-width="3" rx="8"/>
+                        <rect x="18" y="18" width="64" height="64" fill="none" stroke="#D4736A" stroke-width="3" rx="6"/>
+                        <rect x="26" y="26" width="48" height="48" fill="none" stroke="#E8B4B8" stroke-width="3" rx="4"/>
+                        <rect x="34" y="34" width="32" height="32" fill="none" stroke="#C75D54" stroke-width="2" rx="3"/>
+                        <line x1="14" y1="14" x2="86" y2="86" stroke="#C75D54" stroke-width="1.5"/>
+                        <line x1="18" y1="18" x2="82" y2="82" stroke="#E8B4B8" stroke-width="1"/>
+                        <line x1="86" y1="14" x2="14" y2="86" stroke="#C75D54" stroke-width="1.5"/>
+                        <line x1="82" y1="18" x2="18" y2="82" stroke="#E8B4B8" stroke-width="1"/>
+                    </svg>
+                </div>
+                <span class="logo-text" style="font-size: 18px;">Şermin Erden</span>
+            </div>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="../about.html">About</a>
+                <a href="../papers.html">Papers</a>
+                <a href="aasron.html">Cover</a>
+            </nav>
+        </div>
+        <h1>Meaning, Logic, and Quantification</h1>
+
+        <h2>Abstract</h2>
+        <p>This paper explores how humans construct, interpret, and communicate meaning, bridging the domains of semantics, logic, and quantification. Part 1 introduces the building blocks of language, examining how words, syntax, and context combine to create meaning, and distinguishing between literal and associative interpretations. Part 2 analyses the conditional "if" and its representation in formal logic, highlighting the differences between material, indicative, and counterfactual conditionals, as well as the role of pragmatics in mediating understanding. Part 3 investigates universal and existential quantifiers, comparing their formal representation in predicate logic with the richness and flexibility of natural language, while addressing issues of scope, negation, and ambiguity. Throughout the paper, the emphasis is on the dynamic nature of meaning, highlighting how it evolves in relation to context, culture, and time. By integrating linguistic theory, logical structures, and philosophical reflection, the work offers a unified framework for understanding human communication.</p>
+
+        <h2>Introduction</h2>
+        <p>Communication is the process of transmitting information from one person to another (Keyton, 2007). Humans construct meaning through words, sentences, and context, yet understanding how this happens requires careful attention to the rules, patterns, and reasoning embedded in language. This paper explores three interconnected domains: semantics (how words and sentences carry meaning), logic (how humans reason about possibilities and consequences), and quantifiers (how humans generalise or specify). Each section builds upon the previous one, revealing how humans create, interpret, and negotiate meaning in a complex, dynamic world.</p>
+
+        <h2>Part 1 – How People Mean</h2>
+        <p>Communication is the process of transmitting information from one being to another (Keyton, 2007). Information itself is a pattern of data organised in a particular way. A sentence, for instance, consists of symbols that form words in a specific language, each carrying particular meanings.</p>
+        <p>Even the way words sound can alter a message. The <em>phonotactics</em> of a language refer to the permitted arrangements of sounds (i.e., <em>phonemes</em>) in that language (Yule, 2013). The way humans construct, understand, and share meaning is known as <em>semantics</em> (Löbner, 2012).</p>
+        <p>One essential distinction in semantics is between <em>conceptual meaning</em> and <em>associative meaning</em>. Conceptual meaning is the literal, dictionary definition of a word or sentence. Associative meaning refers to the personal and cultural associations that accompany a word throughout a person's life.</p>
+        <p>These connections form what is known as <em>lexical meaning</em>, the network of related words and concepts that the human mind draws upon to comprehend language (Kearns, 2011). Humans organise these relationships in categories, such as:</p>
+        <ul>
+            <li>Synonymy: words with similar meanings (e.g., <em>freedom/liberty</em>)</li>
+            <li>Antonymy: words with opposite meanings (e.g., <em>slow/fast</em>)</li>
+            <li>Hyponymy: hierarchical relationships between words (e.g., <em>animal/dog</em>, <em>dog/poodle</em>) (Löbner, 2012).</li>
+        </ul>
+        <p>However, meaning also depends on the structure of a sentence. <em>Structural meaning</em> is derived from syntax (i.e., the arrangement of words). All English sentences follow certain grammatical patterns, or <em>rules</em>, that dictate how words combine to form meaning.</p>
+        <p>Differences in interpretation can be subtle or drastic, depending on culture, language, age, education, and experience. The human ability to recognise what is meant without it being explicitly stated is called <em>pragmatics</em> (Kearns, 2011).</p>
+
+        <h2>Part 2 – If → Conditionals in Logic and Language</h2>
+        <p>In English, the word <em>if</em> expresses that something may or may not happen, depending on certain conditions. This is why its technical name is the <em>conditional</em>. This section explores the linguistic and logical dimensions of <em>if</em>.</p>
+        <p>When someone speaks truthfully, that determines the <em>truth-value</em> of a sentence. Negation can reverse this value: if the original proposition is true, its negation is false, and vice versa. A <em>proposition</em> is the part of a sentence or utterance that holds a truth value, true (T) or false (F).</p>
+        <p><em>Logic</em>, the science of reasoning, examines what makes an argument valid (Gamut, 1991). Logic can be divided into <strong>informal logic</strong> (the study of arguments in natural language) and <strong>formal logic</strong> (the analysis of validity through symbols and structure).</p>
+        <p>Propositions are often symbolised by letters, commonly P and Q. Logical <em>connectives</em> link propositions together. The most common symbol used for the conditional is "→" and is often read as:</p>
+        <p><em>if → then ≡ P implies Q ≡ if P, then Q ≡ P only if Q ≡ P → Q.</em></p>
+        <p>For example: <em>If I stand in the rain, then I will get wet.</em></p>
+        <p>Here, <strong>P</strong> is the antecedent (<em>the sufficient condition</em> for Q), and <strong>Q</strong> is the consequent (<em>the necessary condition</em> for P).</p>
+        <p>Modus Ponens states: if <em>P</em> → <em>Q</em> and <em>P</em> is true, then <em>Q</em> must also be true.</p>
+        <p>Modus Tollens states: if <em>P</em> → <em>Q</em> and <em>Q</em> is false, then <em>P</em> must also be false.</p>
+        <p>To summarize, the <strong>material conditional</strong> concerns only the truth-values of its parts, represented by the single-headed arrow. The <strong>indicative conditional</strong> reflects the real relationship between antecedent and consequent, while <strong>counterfactuals</strong> express hypothetical or speculative conditions.</p>
+
+        <h2>Part 3 – How Adequately Do the Universal and Existential Quantifiers Model the Facts of Quantification in Natural Languages?</h2>
+        <p>In order to answer the question posed it is of importance to understand how logic came to life, how restricted propositional logic is compared predicate logic, and to show the strengths and weaknesses of the quantifiers used in predicate logic and natural language.</p>
+        <p>Predicate logic is a rationalised version of a <em>language of thought</em> that was introduced by the German philosopher and mathematician Gottlob Frege, and the American philosopher, logician, mathematician, and scientist Charles Sanders Peirce.</p>
+        <p>There are two symbols in predicate logic that is supposed to represent all quantifiers in natural language, the universal quantifier (∀x) which carries the meaning: for all objects (x) in the domain of discourse each arbitrary called 'x' has a certain property. The existential quantifier (∃x): there exists an x in the domain of discourse arbitrarily called x such that x a certain property.</p>
+        <p>The universe of discourse is the set of all things humans wish to talk about; the set of all objects that can be sensibly assigned to a variable in a propositional function.</p>
+        <p>However, the scopes of quantifiers are limited to the antecedent and the consequent, respectively, so the variable x can be recycled.</p>
+        <p>The collaboration between quantification and negation in predicate logic:</p>
+        <ul>
+            <li>¬∀x(Ax → Bx) is equivalent to ∃x¬(Ax → Bx), which is in turn equivalent to ∃x(Ax & ¬Bx),</li>
+            <li>∀x(Ax → ¬Bx) is equivalent to ¬∃x¬(Ax →¬Bx), which is in turn equivalent to ¬∃x(Ax & Bx).</li>
+        </ul>
+
+        <h2>Conclusion</h2>
+        <p>On the one hand, natural languages use quantifiers the same way as the universal and existential quantifiers when quantifying without numerals, they remain unspecified. On the other hand, predicate logic has only two symbols to quantify all the different types of unspecified quantifiers in natural languages, which shows one of its limitations.</p>
+        <p>Where Frege, Pierce, and other scientists have complemented and renovated propositional logic into predicate logic, yet, it seems that the universal and existential quantifiers model the facts of quantification in natural languages to a certain level.</p>
+
+        <hr>
+
+        <h2>Bibliography</h2>
+        <p>Burris, S. N. (1997) <em>Logic for mathematics and computer science</em>, Missouri: Prentice Hall.</p>
+        <p>Keyton, J. (2007) <em>Case studies for organizational communication: Understanding communication processes</em>, Los Angeles, CA: Roxbury Publishing Company.</p>
+        <p>Löbner, S. (2012) <em>Understanding semantics</em> (Second edition), New York, NY: Hodder Education.</p>
+        <p>Kearns, K. (2011) <em>Semantics</em> (Second edition), New York: Palgrave Macmillan.</p>
+        <p>Yule, G. (2010) <em>The study of language</em> (3rd edn), Cambridge, UK: Cambridge University Press.</p>
+        <p>Gamut, L. T. (1991) <em>Logic, language, and meaning, volume 1: Introduction to logic</em>, Chicago: University of Chicago Press.</p>
+
+        <div class="footer">
+            <span>serminerden.com</span>
+            <div class="social-links">
+                <a href="https://en-gb.facebook.com/people/Sermin-EF-Eastbourne/100011166399389" target="_blank" rel="noopener" aria-label="Facebook">
+                    <svg viewBox="0 0 512 512"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/sermin-erden-aa863a30/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
