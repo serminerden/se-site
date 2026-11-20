@@ -227,6 +227,9 @@ ul {margin-left: 2em; margin-right: 5em;}
   .poster-photo { max-width: 100%; width: 280px; }
   .poster-info { width: 100%; }
   .poster-links { justify-content: center; }
+  .radio-banner { flex-direction: column; padding: 18px; }
+  .radio-photo { max-width: 100%; width: 100%; }
+  .radio-info { width: 100%; }
 }
 
 /* Paper read counter */
