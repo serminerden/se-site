@@ -105,11 +105,48 @@ verify visually and describe results in words. After any change:
 
 ## Publishing to serminerden.com
 
-> ADMIN TODO: deployment is not configured yet. Replace this section with the
-> real steps (e.g. FTP/SFTP upload via a script, git push, or hosting
-> provider CLI) and then the `/publish` prompt template
-> (`.pi/prompts/publish.md`) will work.
+Deployed via GitHub Pages from the `gh-pages` branch (root) of
+https://github.com/serminerden/se-site. Custom domain + HTTPS already
+configured on the Pages side (CNAME file at the branch root, A records
+pointing to GitHub Pages). No build step: the static site files are deployed
+as-is. `master` is the source branch; `gh-pages` is a deploy copy of it plus
+`CNAME` and `.nojekyll`.
 
-Until the admin fills this in: if she asks to publish or put something "on the
-website", tell her the changes are saved locally and that publishing is being
-set up by her IT admin. Do not attempt to deploy anywhere.
+Deploy steps (run from the site folder):
+
+1. Commit the changes on `master` and `git push origin master`.
+2. Refresh the deploy worktree and push gh-pages (non-force, so history and
+   rollback stay intact):
+
+   ```bash
+   cd ../se-site-deploy          # git worktree on branch gh-pages
+   find . -mindepth 1 -maxdepth 1 -not -name CNAME -not -name .nojekyll \
+     -not -name .git -exec rm -rf {} +
+   git --git-dir="C:/Users/sermi/OneDrive/Desktop/new_site/.git" checkout master -- .
+   git add -A
+   git -c user.name="serminerden" \
+     -c user.email="serminerden@users.noreply.github.com" \
+     commit -m "Deploy static site (master <master-short-sha>)"
+   git push origin gh-pages
+   ```
+
+3. Wait for the build: `GET /repos/serminerden/se-site/pages/builds/latest`
+   with the stored token (status `built`) — usually 15–30 s.
+4. Verify the live site with the Playwright MCP browser (changed pages on
+   https://serminerden.com, plus a mobile viewport for layout changes).
+
+Pushes are slow on this machine's uplink (~250 KiB/s); image-heavy commits
+take ~1 min. If a push seems to hang, check actual transfer progress with
+`git push --progress` before assuming it is stuck.
+
+**Rollback** (revert the live site to a previous deploy):
+
+- Every pre-deploy state is tagged `backup/live-ghpages-<sha>` on GitHub.
+  To restore the old MkDocs site exactly: `git push origin \
+  +backup/live-ghpages-2975c19beb0bd2f5cd75f7815971df7dfebb8e81:refs/heads/gh-pages`
+- To restore an intermediate deploy, find the gh-pages commit and
+  `git push origin +<sha>:refs/heads/gh-pages` (or use `git revert` on the
+  gh-pages branch to keep history).
+
+Auth: git uses the Windows Credential Manager entry for github.com (PAT with
+`repo` scope). Do not prompt for credentials; do not print the token.
