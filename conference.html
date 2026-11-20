@@ -105,7 +105,6 @@
                         <a class="view-link" href="images/dci6-talk-2026.pdf" target="_blank" rel="noopener">View all slides</a>
                         <a class="view-link" href="images/dci6-delegates-pack.pdf" target="_blank" rel="noopener">View the DCI-6 2026 program</a>
                     </div>
-                    <p class="poster-stats">These slides have been viewed <strong id="dci-views">0</strong> times and downloaded <strong id="dci-downloads">0</strong> times.</p>
                 </div>
             </section>
             <section class="poster-banner">
@@ -121,7 +120,6 @@
                         <a class="view-link" href="images/poster-alaa2026.pdf" target="_blank" rel="noopener">View full size</a>
                         <a class="view-link" href="images/alaa-2026-program.pdf" target="_blank" rel="noopener">View the ALAA 2026 program</a>
                     </div>
-                    <p class="poster-stats">This poster has been viewed <strong id="poster-views">0</strong> times and downloaded <strong id="poster-downloads">0</strong> times.</p>
                 </div>
             </section>
             <section class="poster-banner">
@@ -136,7 +134,6 @@
                         <a class="read-btn" id="pdfest-download" href="images/qld-pdf-fest-2026-program.pdf" download="QLD_PD_Fest_2026_Program.pdf">Download the 2026 program (PDF)</a>
                         <a class="view-link" href="images/qld-pdf-fest-2026-program.pdf" target="_blank" rel="noopener">View the QLD PD Fest 2026 program</a>
                     </div>
-                    <p class="poster-stats">This session has been viewed <strong id="pdfest-views">0</strong> times and its program downloaded <strong id="pdfest-downloads">0</strong> times.</p>
                 </div>
             </section>
             <section class="poster-banner">
@@ -152,7 +149,6 @@
                         <a class="view-link" href="images/pd-fest-2024-talk.pdf" target="_blank" rel="noopener">View the 2024 slides</a>
                         <a class="view-link" href="images/pd-fest-2024-program.pdf" target="_blank" rel="noopener">View the QLD PD Fest 2024 program</a>
                     </div>
-                    <p class="poster-stats">These slides have been viewed <strong id="pdfest2024-views">0</strong> times and downloaded <strong id="pdfest2024-downloads">0</strong> times.</p>
                 </div>
             </section>
         </div>
@@ -174,39 +170,5 @@
             </div>
         </div>
     </div>
-    <script>
-    (function () {
-        var base = 'https://abacus.jasoncameron.dev';
-        function setupCounter(ns, viewsId, downloadsId, downloadId) {
-            var viewsEl = document.getElementById(viewsId);
-            var dlEl = document.getElementById(downloadsId);
-            var statsEl = viewsEl ? viewsEl.closest('.poster-stats') : null;
-            function update(el, data) {
-                if (el && data && typeof data.value === 'number') { el.textContent = data.value; }
-            }
-            function fail() { if (statsEl) { statsEl.style.display = 'none'; } }
-            fetch(base + '/hit/' + ns + '/views')
-                .then(function (r) { return r.json(); })
-                .then(function (d) { update(viewsEl, d); })
-                .catch(fail);
-            if (dlEl) {
-                fetch(base + '/get/' + ns + '/downloads')
-                    .then(function (r) { return r.json(); })
-                    .then(function (d) { update(dlEl, d); })
-                    .catch(fail);
-            }
-            var dlBtn = document.getElementById(downloadId);
-            if (dlBtn) {
-                dlBtn.addEventListener('click', function () {
-                    fetch(base + '/hit/' + ns + '/downloads', { keepalive: true }).catch(function () {});
-                });
-            }
-        }
-        setupCounter('serminerden-poster', 'poster-views', 'poster-downloads', 'poster-download');
-        setupCounter('serminerden-dci6', 'dci-views', 'dci-downloads', 'dci-download');
-        setupCounter('serminerden-qldpdfest', 'pdfest-views', 'pdfest-downloads', 'pdfest-download');
-        setupCounter('serminerden-pdfest2024', 'pdfest2024-views', 'pdfest2024-downloads', 'pdfest2024-download');
-    })();
-    </script>
 </body>
 </html>
