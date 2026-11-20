@@ -232,6 +232,14 @@ ul {margin-left: 2em; margin-right: 5em;}
   .radio-info { width: 100%; }
 }
 
+/* Protect photos: no selecting, dragging, or long-press save menu */
+img {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+}
+
 /* Paper read counter */
 .paper-reads {
     margin-left: 10px;
