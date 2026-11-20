@@ -90,7 +90,7 @@ nav a:hover { color: #4B1F6E; }
 .home-hero-image { flex-shrink: 0; display: flex; }
 .home-hero-image img { display: block; width: 350px; height: 100%; object-fit: cover; object-position: center; }
 .home-hero-text { flex: 1; min-width: 0; }
-.home-hero-text .title { text-align: left; margin-bottom: 24px; font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 52px; line-height: 1.2; color: #0457A8; }
+.home-hero-text .title { text-align: left; margin-bottom: 24px; font-family: 'Source Sans 3', sans-serif; font-weight: 600; font-size: 52px; line-height: 1.2; color: #0457A8; }
 .home-hero-text .divider { margin: 0 0 26px; }
 .home-hero-text .tagline { text-align: left; margin-bottom: 20px; max-width: 560px; font-family: 'Source Sans 3', sans-serif; font-weight: 400; font-size: 18px; line-height: 1.7; color: #2D6D79; }
 .home-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 10px; }
@@ -143,7 +143,7 @@ input[name="degree"] { position: absolute; opacity: 0; pointer-events: none; }
 .episode-number { font-family: 'Playfair Display', serif; font-size: 32px; font-weight: 700; color: #9779C9; min-width: 50px; }
 .episode-info { flex: 1; }
 .episode-title { font-family: 'Source Sans 3', sans-serif; font-weight: 600; font-size: 20px; color: #204670; margin-bottom: 8px; }
-.radio-banner { display: flex; gap: 30px; align-items: flex-start; margin: 40px 0 20px; padding: 25px; border: 2px solid #e0e0e0; border-radius: 8px; background: #fafafa; }
+.radio-banner { display: flex; gap: 30px; align-items: flex-start; margin: 40px 0 20px; padding: 25px; border: 3px solid #2D6D79; border-radius: 8px; background: #fafafa; }
 .radio-photo { flex-shrink: 0; max-width: 320px; }
 .radio-photo img { display: block; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
 .radio-info h2 { color: #204670; font-family: 'Source Sans 3', sans-serif; font-weight: 600; margin-top: 0; }
@@ -227,4 +227,20 @@ ul {margin-left: 2em; margin-right: 5em;}
   .poster-photo { max-width: 100%; width: 280px; }
   .poster-info { width: 100%; }
   .poster-links { justify-content: center; }
+}
+
+/* Paper read counter */
+.paper-reads {
+    margin-left: 10px;
+    color: #888;
+}
+
+/* Copy protection on paper and cover pages */
+.paper-page,
+.cover-page {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
 }
