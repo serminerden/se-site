@@ -150,3 +150,9 @@ take ~1 min. If a push seems to hang, check actual transfer progress with
 
 Auth: git uses the Windows Credential Manager entry for github.com (PAT with
 `repo` scope). Do not prompt for credentials; do not print the token.
+
+## Owner memory
+
+Before working with the owner, read `.agents/memory-sermin.md` (notes about
+how she works, decides, and what she likes). Update that file when we learn
+something new about her.
