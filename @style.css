@@ -195,12 +195,16 @@ input[name="degree"] { position: absolute; opacity: 0; pointer-events: none; }
 .listen-btn:hover { background: #7B5EA7; color: white; }
 .paper-links { margin-top: 15px; }
 .content-page { width: 210mm; min-height: 297mm; background: white; padding: 60px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); font-family: 'Source Sans 3', sans-serif; overflow-y: auto; }
-.content-page h1 { font-family: 'Playfair Display', serif; font-size: 32px; color: #1a1a2e; margin-bottom: 30px; text-align: center; }
+.content-page h1 { font-family: 'Playfair Display', serif; font-size: 36px; color: #1a1a2e; margin-bottom: 30px; text-align: center; }
 .content-page h2 { font-family: 'Playfair Display', serif; font-size: 24px; color: #1a1a2e; margin: 30px 0 20px; border-bottom: 2px solid #7B5EA7; padding-bottom: 10px; }
 .content-page h3 { font-size: 18px; color: #9779C9; margin: 20px 0 15px; }
 .content-page p { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 15px; text-align: justify; }
 .content-page ul, .content-page ol { margin: 15px 0 15px 30px; }
 .content-page li { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 8px; }
+.content-page p.bib-entry, .paper-page p.bib-entry { margin-bottom: 12px; padding-left: 30px; text-indent: -30px; text-align: left; }
+.content-page figure.paper-figure, .paper-page figure.paper-figure { margin: 25px auto; text-align: center; }
+.content-page figure.paper-figure img, .paper-page figure.paper-figure img { max-width: 100%; height: auto; }
+.content-page figure.paper-figure figcaption, .paper-page figure.paper-figure figcaption { font-size: 14px; color: #888; margin-top: 8px; font-style: italic; }
 .content-page blockquote { border-left: 4px solid #7B5EA7; padding-left: 20px; margin: 20px 0; font-style: italic; color: #666; }
 .content-page table { width: 100%; border-collapse: collapse; margin: 20px 0; }
 .content-page th, .content-page td { border: 1px solid #ddd; padding: 12px; text-align: left; font-size: 14px; }
