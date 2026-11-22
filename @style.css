@@ -217,7 +217,7 @@ input[name="degree"] { position: absolute; opacity: 0; pointer-events: none; }
 .paper-page table.paper-table caption { caption-side: bottom; font-size: 14px; color: #888; font-style: italic; margin-top: 10px; text-align: center; }
 .content-page figure.paper-figure img, .paper-page figure.paper-figure img { max-width: 100%; height: auto; }
 .content-page figure.paper-figure figcaption, .paper-page figure.paper-figure figcaption { font-size: 14px; color: #888; margin-top: 8px; font-style: italic; }
-.content-page blockquote { border-left: 4px solid #7B5EA7; padding-left: 20px; margin: 20px 0; font-style: italic; color: #666; }
+.content-page blockquote, .paper-page blockquote { border-left: 4px solid #7B5EA7; padding-left: 20px; margin: 20px 0; font-style: italic; color: #666; }
 .content-page table { width: 100%; border-collapse: collapse; margin: 20px 0; }
 .content-page th, .content-page td { border: 1px solid #ddd; padding: 12px; text-align: left; font-size: 14px; }
 .content-page th { background: #f8f8f8; font-weight: 600; color: #333; }
