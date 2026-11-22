@@ -90,13 +90,13 @@ nav a:hover { color: #4B1F6E; }
 .home-hero-image { flex-shrink: 0; display: flex; }
 .home-hero-image img { display: block; width: 350px; height: 100%; object-fit: cover; object-position: center; }
 .home-hero-text { flex: 1; min-width: 0; }
-.home-hero-text .title { text-align: left; margin-bottom: 24px; font-family: 'Source Sans 3', sans-serif; font-weight: 600; font-size: 52px; line-height: 1.2; color: #0457A8; }
+.home-hero-text .title { text-align: left; margin-bottom: 24px; font-family: 'Source Sans 3', sans-serif; font-weight: 600; font-size: 36px; line-height: 1.2; color: #0457A8; }
 .home-hero-text .divider { margin: 0 0 26px; }
 .home-hero-text .tagline { text-align: left; margin-bottom: 20px; max-width: 560px; font-family: 'Source Sans 3', sans-serif; font-weight: 400; font-size: 18px; line-height: 1.7; color: #2D6D79; }
 .home-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 10px; }
 .home-actions .read-btn, .home-actions .listen-btn { margin-top: 0; }
-.home-actions .listen-btn { border-color: #2D6D79; color: #2D6D79; }
-.home-actions .listen-btn:hover { background: #2D6D79; color: white; }
+.home-actions .listen-btn { background: linear-gradient(135deg, #1F5A66, #2D6D79); border: none; color: white; padding: 12px 14px; }
+.home-actions .listen-btn:hover { background: linear-gradient(135deg, #174B55, #1F5A66); color: white; }
 .home-actions .btn-about { display: inline-block; padding: 12px 30px; background: linear-gradient(135deg, #033E74, #0A5AA8); border: none; color: white; text-decoration: none; font-weight: 600; border-radius: 4px; margin-top: 0; }
 .home-actions .btn-about:hover { background: linear-gradient(135deg, #02335F, #09509A); color: white; }
 
@@ -216,7 +216,7 @@ ul {margin-left: 2em; margin-right: 5em;}
   .home-hero { flex-direction: column; gap: 30px; text-align: center; padding-bottom: 10px; }
   .home-hero-image { width: 100%; }
   .home-hero-image img { width: 100%; height: 260px; }
-  .home-hero-text .title { font-size: 40px; }
+  .home-hero-text .title { font-size: 29px; }
   .home-hero-text .title, .home-hero-text .tagline { text-align: center; }
   .home-hero-text .divider { margin-left: auto; margin-right: auto; }
   .home-actions { justify-content: center; }
