@@ -203,6 +203,7 @@ input[name="degree"] { position: absolute; opacity: 0; pointer-events: none; }
 .content-page li { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 8px; }
 .content-page p.bib-entry, .paper-page p.bib-entry { margin-bottom: 12px; padding-left: 30px; text-indent: -30px; text-align: left; overflow-wrap: anywhere; }
 .content-page figure.paper-figure, .paper-page figure.paper-figure { margin: 25px auto; text-align: center; }
+.paper-page p { overflow-wrap: anywhere; }
 .paper-page .table-scroll { overflow-x: auto; }
 .paper-page table.paper-table { width: 100%; border-collapse: collapse; margin: 25px 0; font-size: 14px; }
 .paper-page table.paper-table th, .paper-page table.paper-table td { border: 1px solid #ddd; padding: 10px 12px; vertical-align: top; text-align: left; line-height: 1.5; }
