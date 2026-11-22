@@ -208,6 +208,8 @@ input[name="degree"] { position: absolute; opacity: 0; pointer-events: none; }
 .content-page p.bib-entry, .paper-page p.bib-entry { margin-bottom: 12px; padding-left: 30px; text-indent: -30px; text-align: left; overflow-wrap: anywhere; }
 .content-page figure.paper-figure, .paper-page figure.paper-figure { margin: 25px auto; text-align: center; }
 .paper-page p { overflow-wrap: anywhere; }
+.paper-page .transcript { max-width: 700px; margin: 5px auto 25px; padding: 20px 25px; background: #fafafa; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 16px; line-height: 1.9; color: #333; white-space: pre-wrap; overflow-wrap: anywhere; }
+.paper-page .transcript-note { font-size: 13px; color: #888; text-align: center; margin-top: -10px; }
 .paper-page .presentation-actions { text-align: center; margin-bottom: 10px; }
 .paper-page .presentation-actions .read-btn { margin: 0 8px; }
 .paper-page .pdf-embed { margin: 30px 0; border: 1px solid #ddd; border-radius: 6px; overflow: hidden; }
