@@ -201,8 +201,13 @@ input[name="degree"] { position: absolute; opacity: 0; pointer-events: none; }
 .content-page p { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 15px; text-align: justify; }
 .content-page ul, .content-page ol { margin: 15px 0 15px 30px; }
 .content-page li { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 8px; }
-.content-page p.bib-entry, .paper-page p.bib-entry { margin-bottom: 12px; padding-left: 30px; text-indent: -30px; text-align: left; }
+.content-page p.bib-entry, .paper-page p.bib-entry { margin-bottom: 12px; padding-left: 30px; text-indent: -30px; text-align: left; overflow-wrap: anywhere; }
 .content-page figure.paper-figure, .paper-page figure.paper-figure { margin: 25px auto; text-align: center; }
+.paper-page .table-scroll { overflow-x: auto; }
+.paper-page table.paper-table { width: 100%; border-collapse: collapse; margin: 25px 0; font-size: 14px; }
+.paper-page table.paper-table th, .paper-page table.paper-table td { border: 1px solid #ddd; padding: 10px 12px; vertical-align: top; text-align: left; line-height: 1.5; }
+.paper-page table.paper-table th { background: #f4f1f8; font-weight: 600; color: #333; }
+.paper-page table.paper-table caption { caption-side: bottom; font-size: 14px; color: #888; font-style: italic; margin-top: 10px; text-align: center; }
 .content-page figure.paper-figure img, .paper-page figure.paper-figure img { max-width: 100%; height: auto; }
 .content-page figure.paper-figure figcaption, .paper-page figure.paper-figure figcaption { font-size: 14px; color: #888; margin-top: 8px; font-style: italic; }
 .content-page blockquote { border-left: 4px solid #7B5EA7; padding-left: 20px; margin: 20px 0; font-style: italic; color: #666; }
