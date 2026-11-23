@@ -139,7 +139,7 @@ input[name="degree"] { position: absolute; opacity: 0; pointer-events: none; }
 .paper-item.video .paper-cover { background: linear-gradient(135deg, #C9DDF0 0%, #4A8AC2 50%, #0457A8 100%); }
 .paper-cover h3 { font-family: 'Playfair Display', serif; font-size: 14px; color: white; line-height: 1.3; }
 .paper-info { flex: 1; }
-.paper-title { font-family: 'Source Sans 3', sans-serif; font-weight: 600; font-size: 20px; color: #204850; margin-bottom: 8px; }
+.paper-title { font-family: 'Source Sans 3', sans-serif; font-weight: 600; font-size: 16px; color: #204850; margin-bottom: 8px; }
 .paper-abstract { font-size: 14px; line-height: 1.6; color: #666; margin-bottom: 10px; }
 .paper-meta { font-size: 12px; color: #888; }
 .episode-list { display: flex; flex-direction: column; gap: 20px; flex: 1; }
@@ -173,6 +173,8 @@ input[name="degree"] { position: absolute; opacity: 0; pointer-events: none; }
 .poster-sub { border-top: 1px solid #e0e0e0; margin-top: 18px; padding-top: 18px; }
 .episode-description { font-size: 14px; line-height: 1.6; color: #666; margin-bottom: 10px; }
 .episode-meta { font-size: 12px; color: #888; }
+.episode-meta a { color: #7B5EA7; text-decoration: underline; }
+.episode-meta a:hover { color: #5a3f86; }
 .episode-header { text-align: center; margin-bottom: 30px; }
 .episode-header h1 { font-family: 'Source Sans 3', sans-serif; font-weight: 600; font-size: 36px; color: #204670; margin-bottom: 10px; }
 .episode-header h2 { font-family: 'Source Sans 3', sans-serif; font-weight: 600; font-size: 28px; color: #204670; }
